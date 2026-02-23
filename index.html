@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="PearlDev — Soluciones tecnológicas que impulsan tu negocio. Desarrollo de software, mantenimiento de hardware y consultoría IT." />
+  <title>PearlDev — Soluciones Tecnológicas</title>
+
+  <!-- Favicon (reuse logo) -->
+  <link rel="icon" href="PEARLDEV LOGO.png" type="image/png" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+       ============================================================ -->
+  <nav id="navbar" class="navbar">
+    <div class="container">
+      <a href="#hero" class="navbar__logo">
+        <img src="logo sin fondo (1).png" alt="PearlDev Logo" />
+      </a>
+
+      <ul id="nav-links" class="navbar__links">
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#software">Software</a></li>
+        <li><a href="#hardware">Hardware</a></li>
+        <li><a href="#planes">Soluciones</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+
+      <button id="hamburger" class="navbar__hamburger" aria-label="Menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+       ============================================================ -->
+  <section id="hero" class="hero">
+    <!-- Particles -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Background image -->
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+
+    <div class="hero__content">
+      <img src="logo sin fondo (1).png" alt="PearlDev" class="hero__logo" />
+
+      <h1 class="hero__title">Soluciones tecnológicas que impulsan tu negocio</h1>
+
+      <p class="hero__subtitle">
+        Mantenimiento, desarrollo y automatización para empresas y emprendedores.
+      </p>
+
+      <a href="#contacto" class="btn btn--primary">
+        🚀 Solicitar diagnóstico gratuito
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SOFTWARE SECTION
+       ============================================================ -->
+  <section id="software" class="software">
+    <div class="container">
+      <h2 class="section-title reveal">Software a tu medida</h2>
+      <p class="section-subtitle reveal">
+        Soluciones digitales para cada etapa de tu negocio.
+      </p>
+
+      <div class="software__grid">
+
+        <!-- Card 1 — Negocios Pequeños -->
+        <div class="software-card reveal">
+          <span class="software-card__icon">🏪</span>
+          <h3 class="software-card__title">¿Eres un negocio pequeño?</h3>
+          <ul class="software-card__list">
+            <li>Control de inventario</li>
+            <li>Registro de ventas</li>
+            <li>Reportes y gráficos claros</li>
+            <li>Facturación simplificada</li>
+          </ul>
+        </div>
+
+        <!-- Card 2 — Emprendedores -->
+        <div class="software-card reveal">
+          <span class="software-card__icon">🚀</span>
+          <h3 class="software-card__title">¿Eres emprendedor?</h3>
+          <ul class="software-card__list">
+            <li>Diseño y desarrollo de páginas web</li>
+            <li>Sistemas personalizados</li>
+            <li>Apps móviles y de escritorio</li>
+            <li>Presencia digital profesional</li>
+          </ul>
+        </div>
+
+        <!-- Card 3 — Empresas Grandes -->
+        <div class="software-card reveal">
+          <span class="software-card__icon">🏢</span>
+          <h3 class="software-card__title">¿Empresa grande o institución?</h3>
+          <ul class="software-card__list">
+            <li>Automatización de procesos</li>
+            <li>Control de empleados</li>
+            <li>Sistemas administrativos a medida</li>
+            <li>Paneles de control y métricas</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       HARDWARE SECTION
+       ============================================================ -->
+  <section id="hardware" class="hardware">
+    <div class="container">
+      <h2 class="section-title reveal">Hardware & Soporte Técnico</h2>
+      <p class="section-subtitle reveal">
+        Mantenemos tu equipo al máximo rendimiento.
+      </p>
+
+      <div class="hardware__grid">
+
+        <div class="hardware-card reveal">
+          <div class="hardware-card__icon">🧹</div>
+          <h3 class="hardware-card__title">Limpieza profesional</h3>
+          <p class="hardware-card__desc">Limpieza interna completa de tu PC o laptop para una vida útil más larga.</p>
+        </div>
+
+        <div class="hardware-card reveal">
+          <div class="hardware-card__icon">🌡️</div>
+          <h3 class="hardware-card__title">Cambio de pasta térmica</h3>
+          <p class="hardware-card__desc">Mejora las temperaturas y rendimiento de tu procesador y GPU.</p>
+        </div>
+
+        <div class="hardware-card reveal">
+          <div class="hardware-card__icon">🔧</div>
+          <h3 class="hardware-card__title">Reparación y diagnóstico</h3>
+          <p class="hardware-card__desc">Identificamos y solucionamos cualquier fallo de hardware o software.</p>
+        </div>
+
+        <div class="hardware-card reveal">
+          <div class="hardware-card__icon">🖥️</div>
+          <h3 class="hardware-card__title">Ensamblaje de computadoras</h3>
+          <p class="hardware-card__desc">Construimos tu PC ideal, gamer o profesional, a tu medida.</p>
+        </div>
+
+        <div class="hardware-card reveal">
+          <div class="hardware-card__icon">💡</div>
+          <h3 class="hardware-card__title">Asesoría en componentes</h3>
+          <p class="hardware-card__desc">Te ayudamos a elegir los mejores componentes según tu presupuesto.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PLANES / SERVICES SECTION
+       ============================================================ -->
+  <section id="planes" class="plans">
+    <div class="container">
+      <h2 class="section-title reveal">Nuestras Soluciones</h2>
+      <p class="section-subtitle reveal">
+        Tecnología integral para cada área de tu negocio.
+      </p>
+
+      <div class="plans__grid">
+
+        <!-- Card 1 — Software a Medida -->
+        <div class="plan-card reveal">
+          <h3 class="plan-card__name">💻 Software a Medida</h3>
+          <p class="plan-card__desc">
+            Soluciones digitales diseñadas para optimizar y automatizar tu negocio.
+          </p>
+          <ul class="plan-card__features">
+            <li>Desarrollo de sistemas personalizados</li>
+            <li>Páginas web y aplicaciones</li>
+            <li>Automatización de procesos</li>
+            <li>Paneles de control y reportes</li>
+          </ul>
+          <a href="#contacto" class="btn btn--outline">Ver soluciones de software</a>
+        </div>
+
+        <!-- Card 2 — Hardware & Soporte Técnico -->
+        <div class="plan-card plan-card--featured reveal">
+          <h3 class="plan-card__name">🖥️ Hardware &amp; Soporte Técnico</h3>
+          <p class="plan-card__desc">
+            Mantenimiento y optimización para que tu tecnología funcione al máximo rendimiento.
+          </p>
+          <ul class="plan-card__features">
+            <li>Limpieza profesional</li>
+            <li>Cambio de pasta térmica</li>
+            <li>Ensamblaje de computadoras</li>
+            <li>Diagnóstico y reparación</li>
+          </ul>
+          <a href="#contacto" class="btn btn--primary">Solicitar revisión de equipo</a>
+        </div>
+
+        <!-- Card 3 — Infraestructura, Redes & Datos -->
+        <div class="plan-card reveal">
+          <h3 class="plan-card__name">🌐 Infraestructura, Redes &amp; Datos</h3>
+          <p class="plan-card__desc">
+            Organización y gestión inteligente de tu información y sistemas.
+          </p>
+          <ul class="plan-card__features">
+            <li>Configuración de redes</li>
+            <li>Servidores y respaldos</li>
+            <li>Bases de datos</li>
+            <li>Seguridad informática</li>
+          </ul>
+          <a href="#contacto" class="btn btn--outline">Optimizar mi infraestructura</a>
+        </div>
+
+      </div>
+
+      <!-- CTA personalizado -->
+      <div class="plans__cta reveal" style="text-align:center; margin-top:4rem;">
+        <h3 class="section-title" style="font-size:clamp(1.4rem,3.5vw,2rem);">¿No encuentras exactamente lo que
+          necesitas?</h3>
+        <p class="section-subtitle" style="margin-bottom:2rem;">
+          Cada negocio es diferente. Cuéntanos tu situación y diseñamos una solución tecnológica personalizada para ti.
+        </p>
+        <a href="#contacto" class="btn btn--primary" style="font-size:1.1rem; padding:1rem 2.8rem;">
+          🚀 Solicitar diagnóstico personalizado
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       RESULTADOS REALES
+       ============================================================ -->
+  <section id="resultados" class="results">
+    <div class="container">
+      <h2 class="section-title reveal">Resultados reales</h2>
+      <p class="section-subtitle reveal">
+        Transformaciones tecnológicas que generan impacto.
+      </p>
+
+      <div class="results__grid">
+
+        <div class="result-card reveal">
+          <div class="result-card__before">
+            <span class="result-card__label">Antes</span>
+            <p>Inventario en libreta</p>
+          </div>
+          <div class="result-card__arrow">→</div>
+          <div class="result-card__after">
+            <span class="result-card__label result-card__label--after">Después</span>
+            <p>Sistema digital con reportes automáticos</p>
+          </div>
+        </div>
+
+        <div class="result-card reveal">
+          <div class="result-card__before">
+            <span class="result-card__label">Antes</span>
+            <p>Equipos con sobrecalentamiento constante</p>
+          </div>
+          <div class="result-card__arrow">→</div>
+          <div class="result-card__after">
+            <span class="result-card__label result-card__label--after">Después</span>
+            <p>Optimización térmica y mayor rendimiento</p>
+          </div>
+        </div>
+
+        <div class="result-card reveal">
+          <div class="result-card__before">
+            <span class="result-card__label">Antes</span>
+            <p>Procesos manuales lentos</p>
+          </div>
+          <div class="result-card__arrow">→</div>
+          <div class="result-card__after">
+            <span class="result-card__label result-card__label--after">Después</span>
+            <p>Automatización que ahorra tiempo y errores</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CÓMO TRABAJAMOS
+       ============================================================ -->
+  <section id="proceso" class="process">
+    <div class="container">
+      <h2 class="section-title reveal">Cómo trabajamos</h2>
+      <p class="section-subtitle reveal">
+        Un proceso claro y transparente en cada proyecto.
+      </p>
+
+      <div class="process__steps">
+
+        <div class="process-step reveal">
+          <span class="process-step__number">1</span>
+          <h3 class="process-step__title">Diagnóstico</h3>
+          <p class="process-step__desc">Analizamos tu situación actual.</p>
+        </div>
+
+        <div class="process-step reveal">
+          <span class="process-step__number">2</span>
+          <h3 class="process-step__title">Propuesta clara</h3>
+          <p class="process-step__desc">Definimos una solución concreta y transparente.</p>
+        </div>
+
+        <div class="process-step reveal">
+          <span class="process-step__number">3</span>
+          <h3 class="process-step__title">Implementación</h3>
+          <p class="process-step__desc">Desarrollamos o intervenimos con enfoque profesional.</p>
+        </div>
+
+        <div class="process-step reveal">
+          <span class="process-step__number">4</span>
+          <h3 class="process-step__title">Seguimiento</h3>
+          <p class="process-step__desc">Aseguramos estabilidad y mejora continua.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA INTERMEDIA
+       ============================================================ -->
+  <section class="cta-mid">
+    <div class="container">
+      <div class="cta-mid__content reveal">
+        <h2 class="cta-mid__title">¿Listo para optimizar tu tecnología?</h2>
+        <p class="cta-mid__text">Convirtamos tu problema tecnológico en una ventaja competitiva.</p>
+        <a href="#contacto" class="btn btn--primary btn--lg">🚀 Solicitar diagnóstico</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ¿POR QUÉ PEARLDEV?
+       ============================================================ -->
+  <section id="diferenciador" class="why-us">
+    <div class="container">
+      <h2 class="section-title reveal">¿Por qué PearlDev?</h2>
+
+      <div class="why-us__grid">
+        <div class="why-us__item reveal">
+          <span class="why-us__icon">⚙️</span>
+          <p>No solo reparamos, <strong>optimizamos</strong>.</p>
+        </div>
+        <div class="why-us__item reveal">
+          <span class="why-us__icon">🤖</span>
+          <p>No solo instalamos, <strong>automatizamos</strong>.</p>
+        </div>
+        <div class="why-us__item reveal">
+          <span class="why-us__icon">🛡️</span>
+          <p>No solo damos soporte, <strong>prevenimos problemas</strong>.</p>
+        </div>
+        <div class="why-us__item reveal">
+          <span class="why-us__icon">📈</span>
+          <p>Tecnología alineada al <strong>crecimiento de tu negocio</strong>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       COMPROMISO Y TRANSPARENCIA
+       ============================================================ -->
+  <section id="compromiso" class="trust">
+    <div class="container">
+      <h2 class="section-title reveal">Compromiso y transparencia</h2>
+      <p class="section-subtitle reveal">
+        Trabajamos con claridad, comunicación constante y soluciones adaptadas a cada cliente.
+      </p>
+
+      <div class="trust__grid">
+        <div class="trust__item reveal">
+          <span class="trust__icon">🤝</span>
+          <h3>Atención personalizada</h3>
+        </div>
+        <div class="trust__item reveal">
+          <span class="trust__icon">🔍</span>
+          <h3>Diagnóstico transparente</h3>
+        </div>
+        <div class="trust__item reveal">
+          <span class="trust__icon">💰</span>
+          <h3>Sin costos ocultos</h3>
+        </div>
+        <div class="trust__item reveal">
+          <span class="trust__icon">🔧</span>
+          <h3>Soporte continuo</h3>
+        </div>
+      </div>
+
+      <!-- Garantía y Soporte -->
+      <div class="guarantee reveal">
+        <h3 class="guarantee__title">🛡️ Garantía y Soporte PearlDev</h3>
+
+        <div class="guarantee__grid">
+
+          <div class="guarantee__item">
+            <span class="guarantee__icon">✅</span>
+            <h4>Garantía de funcionamiento</h4>
+            <p>Ofrecemos <strong>30 días de garantía</strong> sobre todas nuestras soluciones desarrolladas, asegurando
+              su correcto funcionamiento en condiciones normales de uso.</p>
+          </div>
+
+          <div class="guarantee__item">
+            <span class="guarantee__icon">⚡</span>
+            <h4>Entrega ágil</h4>
+            <p>El tiempo estimado depende del proyecto, pero priorizamos entregas extremadamente rápidas. En algunos
+              casos, los proyectos pueden completarse en <strong>cuestión de días</strong>.</p>
+          </div>
+
+          <div class="guarantee__item">
+            <span class="guarantee__icon">📝</span>
+            <h4>Política de revisión</h4>
+            <p>Incluimos ajustes y mejoras razonables dentro de los primeros <strong>7 días posteriores a la
+                entrega</strong> sin costo adicional, siempre que no impliquen cambios estructurales. Después de ese
+              periodo, cualquier modificación podrá cotizarse según el ajuste solicitado.</p>
+          </div>
+
+          <div class="guarantee__item">
+            <span class="guarantee__icon">🔧</span>
+            <h4>Soporte técnico</h4>
+            <p><strong>3 meses de soporte</strong> por errores atribuibles al desarrollo original. Corrección sin costo
+              de fallos provocados por nuestro código y asistencia técnica para resolver dudas sobre el sistema
+              entregado.</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- ============================================================
+       TECNOLOGÍAS QUE UTILIZAMOS
+       ============================================================ -->
+  <section class="tech-stack">
+    <div class="container">
+      <h2 class="section-title reveal">Tecnologías que utilizamos</h2>
+
+      <div class="tech-stack__badges reveal">
+        <span class="tech-badge">🐍 Python</span>
+        <span class="tech-badge">🌐 Desarrollo Web Moderno</span>
+        <span class="tech-badge">🗄️ Bases de datos SQL</span>
+        <span class="tech-badge">🔌 Infraestructura y redes</span>
+        <span class="tech-badge">🔐 Integración con dispositivos biométricos</span>
+      </div>
+
+      <p class="section-subtitle reveal" style="margin-top:1.5rem;">Nos adaptamos a las necesidades específicas de cada
+        proyecto.</p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIOS
+       ============================================================ -->
+  <section id="testimonios" class="testimonials">
+    <div class="container">
+      <h2 class="section-title reveal">Testimonios</h2>
+      <p class="section-subtitle reveal">
+        Experiencias reales que respaldan nuestro trabajo.
+      </p>
+
+      <div class="testimonials__grid">
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-card__avatar">👤</div>
+          <h3 class="testimonial-card__name">Carlos M.</h3>
+          <p class="testimonial-card__role">Dirección Administrativa — Secretaría de Seguridad (Gobierno de México)</p>
+          <blockquote class="testimonial-card__text">
+            "PearlDev nos ayudó a modernizar completamente nuestro control interno de personal. Antes dependíamos de
+            procesos manuales y registros dispersos. Ahora contamos con un sistema automatizado que registra entradas,
+            salidas y horas laborales en tiempo real, permitiéndonos tener mayor control y transparencia en la gestión
+            de empleados."
+          </blockquote>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-card__avatar">👤</div>
+          <h3 class="testimonial-card__name">Roberto L.</h3>
+          <p class="testimonial-card__role">Coordinación Operativa — Secretaría de Seguridad (Gobierno de México)</p>
+          <blockquote class="testimonial-card__text">
+            "También transformaron nuestra gestión de información. Pasamos de depender de hojas de cálculo
+            desorganizadas a una plataforma digital centralizada, donde podemos consultar datos, generar reportes y
+            administrar accesos de manera segura. Esto mejoró significativamente nuestra eficiencia operativa."
+          </blockquote>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-card__avatar">👩‍💼</div>
+          <h3 class="testimonial-card__name">Mariana R.</h3>
+          <p class="testimonial-card__role">Fundadora de Tienda Online</p>
+          <blockquote class="testimonial-card__text">
+            "Necesitaba una página web profesional que me permitiera vender y administrar mi negocio sin complicaciones.
+            PearlDev desarrolló una plataforma moderna y fácil de usar que me permitió digitalizar mi empresa y ofrecer
+            una mejor experiencia a mis clientes."
+          </blockquote>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CIERRE — LLAMADA A LA ACCIÓN
+       ============================================================ -->
+  <section class="closing-cta">
+    <div class="container">
+      <div class="closing-cta__content reveal">
+        <h2 class="closing-cta__title">Ya ayudamos al sector público y negocios privados.<br>Ahora podemos ayudarte a
+          ti.</h2>
+        <p class="closing-cta__sub">Nos adaptamos según las necesidades de cada cliente.</p>
+        <p class="closing-cta__highlight">Precios accesibles para individuales.</p>
+        <a href="#contacto" class="btn btn--primary btn--lg">🚀 Solicitar diagnóstico</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT SECTION
+       ============================================================ -->
+  <section id="contacto" class="contact">
+    <div class="container">
+      <h2 class="section-title reveal">Contáctanos</h2>
+      <p class="section-subtitle reveal">
+        Escríbenos y te responderemos lo antes posible.
+      </p>
+
+      <form class="contact__form reveal" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required />
+        </div>
+
+        <div class="form-group">
+          <label for="correo">Correo electrónico</label>
+          <input type="email" id="correo" name="correo" placeholder="nombre@ejemplo.com" required />
+        </div>
+
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" placeholder="¿En qué podemos ayudarte?" required></textarea>
+        </div>
+
+        <div class="g-recaptcha" data-sitekey="6LdhvXQsAAAAAEpnnmGiNpaBmILf8fo40DxkxwT5" data-theme="dark"
+          style="display:flex; justify-content:center; margin-bottom:1rem;"></div>
+
+        <button type="submit" class="btn btn--primary">✉️ Enviar mensaje</button>
+        <p style="text-align:center; font-size:0.8rem; color:#9ca3af; margin-top:1rem;">
+          🔒 Tus datos están protegidos y solo serán usados para contactarte.
+          <a href="privacidad.html" style="color:#00a3ff;">Ver Aviso de Privacidad</a>.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 <span>PearlDev</span>. Todos los derechos reservados. · <a href="privacidad.html"
+          style="color:#9ca3af;">Aviso de Privacidad</a></p>
+    </div>
+  </footer>
+
+
+  <!-- reCAPTCHA -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>emailjs.init("nu9N0U25lgTf4CT_T");</script>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+
+</html>

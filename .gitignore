@@ -1,0 +1,19 @@
+# System files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Node (from serve)
+node_modules/
+
+# Logs
+*.log
+
+# Old unused logos
+PEARLDEV LOGO.png
+LOGO SOLO.png
+logo sin fondo.png
